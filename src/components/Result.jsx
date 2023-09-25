@@ -9,7 +9,7 @@ const Result = (props) => {
             <h2>Resultat</h2>
             <p> Du fick {props.score} poäng!</p>
             <Link to="/">
-             <button>Kör igen</button>
+             <button onClick={props.restartQuiz}>Kör igen</button>
             </Link>
         </section>
     )

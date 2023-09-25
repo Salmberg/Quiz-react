@@ -1,9 +1,11 @@
-import { useState } from "react";
+
 import { useNavigate, useParams } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
 
 
 const Game = (props) => {
     const questions = getQuestions();
+
 
    //const [currentQuestion, setCurrentQuestion] = useState(0);
     const [selectedAnswer, setSelectedAnswer] = useState(null);
