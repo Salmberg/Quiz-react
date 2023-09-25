@@ -36,7 +36,7 @@ const Game = (props) => {
             
         }
 
-        if ( currentQuestion < questions.length -1) {
+        if ( currentQuestion < questions.length) {
         //setCurrentQuestion(currentQuestion +1);
         navigate('/game/'+(currentQuestion + 1));
         } else {

@@ -16,7 +16,6 @@ function App() {
 
   const restartQuiz = () => {
     setScore(0);
-    //setCurrentScreen(WELCOME);
   }
 
   // switch(currentScreen) {
