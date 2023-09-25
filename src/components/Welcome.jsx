@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -9,7 +10,9 @@ const Welcome = (props) => {
         <section>
             <h2>Välkommen till Quizet!</h2>
             <p>Vill du köra igång</p>
-            <button onClick={props.nextScreen}>JA</button>
+            <Link to ="/game">
+            <button>JA</button>
+            </Link>
         </section>
     )
 }
